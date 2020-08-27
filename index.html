@@ -33,20 +33,15 @@
     </nav>
     <div>
         <div id="box-1">
-          <video poster="assets/videos/videoSlide.mp4" id="bgvid" playsinline autoplay muted loop>
-          <!--
-          - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
-          WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-          <source src="assets/videos/videoSlide.mp4" type="video/webm">
-          <source src="assets/videos/videoSlide.mp4" type="video/mp4">
 
-          </video>
         </div>
         <div id="box-2">
-            <h1>DAFT</h1>
+          <div class="embed-responsive embed-responsive-16by9" style="height:100%;" >
+          <iframe class="embed-responsive-item" src="assets/videos/trailer.mp4" allowfullscreen></iframe>
+          </div>
         </div>
         <div id="box-3">
-            <h1>Punk</h1>
+
         </div>
     </div>
     <!-- footer (start) -->
